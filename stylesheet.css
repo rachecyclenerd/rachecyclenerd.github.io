@@ -1,0 +1,50 @@
+* {
+    margin: auto;
+    box-sizing: border-box
+    }
+
+#header {
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    background-color: red;
+    text-align: center;
+    }
+    
+.left {
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 10px;
+    width: 30%;
+    background-color: green;
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    }
+    
+.right {
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 10px;
+    max-width:65%;
+    background-color: yellow;
+    float: right;
+    margin-top: 10px
+    }
+    
+#footer {
+    border: 1px dashed green;
+    border-radius: 5px;
+    padding: 10px;
+    height: 50px;
+    width: 100%;
+    background-color: pink;
+    clear: both;
+    margin-top: 10px;
+    }
+    
+.list {
+    padding: 10px;
+    }
