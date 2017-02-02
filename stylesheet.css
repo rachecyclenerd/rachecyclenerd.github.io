@@ -1,7 +1,7 @@
 * {
     margin: auto;
     box-sizing: border-box;
-    padding: 10px;
+    border-radius: 5px;
     }
 
 #header {
@@ -14,24 +14,22 @@
     text-align: center;
     }
     
-.left {
+.profile {
     border: 1px solid red;
     border-radius: 5px;
     padding: 10px;
     width: 30%;
     background-color: green;
-    float: left;
     margin-top: 10px;
     margin-right: 10px;
     }
     
-.right {
+.experience {
     border: 1px solid blue;
     border-radius: 5px;
     padding: 10px;
     max-width:65%;
     background-color: yellow;
-    float: right;
     margin-top: 10px
     }
     
@@ -47,12 +45,5 @@
     }
     
 .list {
-    padding: 10px;
+    background-color: white;
     }
-
-h2 {
-    background-color: black;
-    color: red;
-    padding: 10px;
-    border-radius: 5px;
-}
