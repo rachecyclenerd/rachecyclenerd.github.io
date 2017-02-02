@@ -3,27 +3,49 @@
     box-sizing: border-box;
     border-radius: 5px;
     max-width: 800px;
+    font-family: "Cabin", sans-serif;
+    border: 1px dashed green;
     }
 
+body {
+
+    background: DarkRed; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(DarkRed, LightGrey); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(DarkRed, LightGrey); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(DarkRed, LightGrey); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(DarkRed, LightGrey); /* Standard syntax */
+    display: block;
+}
+
 #header {
-    border: 1px solid black;
+    border: 1px solid red;
     border-radius: 5px;
-    color: DarkRed;
+    color: LightGrey;
     padding: 10px;
     width: 100%;
-    background-color: LightGrey;
     text-align: center;
-    font-family: "Oswald", sans-serif;
+    margin: auto;
+    display: block;
+    vertical-align: middle;
     }
+
+#header_image {
+     display: block;
+     vertical-align: middle;
+     height: 200px;
+}
+
     
 .profile {
     border: 1px solid red;
     border-radius: 5px;
     padding: 10px;
     width: 100%;
-    background-color: green;
+    background-color: DarkRed;
     margin-top: 10px;
     margin-right: 10px;
+    color: LightGrey;
+    text-align: center;
     }
     
 .experience {
@@ -31,8 +53,7 @@
     border-radius: 5px;
     padding: 10px;
     width: 100%;
-    background-color: yellow;
-    margin-top: 10px
+    margin-top: 10px;
     }
     
 #footer {
@@ -47,9 +68,61 @@
     }
     
 .list {
-    background-color: white;
+    background-color: black;
     margin: 10px;
+    padding: 10px;
+    color: white;
     }
+
 .profile_image {
     border-radius: 100%;
+    border: 2px solid red;
+}
+
+#profile_description {
+    font-family: "Abel", sans-serif;
+}
+
+h1 {
+    font-family: "Cabin", sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+    font-size: 48px;
+    height: 100%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+p , .job_description, li {
+
+    font-family: "Abel", sans-serif;
+    line-height: 1.5em;
+
+
+}
+
+h2 {
+    padding: 10px;
+    text-align: center;
+
+}
+
+h3 {
+    color: black;
+}
+h4 {
+    font-size:120%;
+
+}
+
+.date {
+font-size: 0.75em;
+
+}
+
+
+.job_title {
+    color: LightGrey;
+
 }
