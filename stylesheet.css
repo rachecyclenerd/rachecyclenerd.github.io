@@ -48,3 +48,9 @@
 .list {
     padding: 10px;
     }
+
+h2 {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
